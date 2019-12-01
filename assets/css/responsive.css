@@ -1,0 +1,102 @@
+@media only screen and (max-width: 1200px) {
+  .nav-item {
+    padding: 0 20px !important;
+  }
+  .text-wrap h5 {
+    font-size: 17px;
+  }
+  .content span {
+    font-size: 12px !important;
+  }
+  .stat .value {
+    font-size: 54px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .vertical-center {
+    width: 200px;
+  }
+  .copyright-text {
+    font-size: 17px;
+  }
+  .navbar-text {
+    display: none !important;
+  }
+  .respon {
+    display: block !important;
+  }
+  .text-size {
+    font-size: 15px !important;
+  }
+  .center {
+    text-align: center;
+  }
+  .margin-respon {
+    margin-bottom: 30px;
+  }
+  .text-wrap {
+    font-size: 16px;
+  }
+  .stat .value {
+    font-size: 34px;
+  }
+  .stat .label {
+    font-size: 10px;
+  }
+  .stat .divide {
+    top: 8px !important;
+  }
+  .description {
+    padding-left: 70px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .copyright-text {
+    font-size: 15px;
+  }
+  .text-size {
+    font-size: 16px !important;
+  }
+  .center {
+    text-align: center;
+  }
+  .margin-respon {
+    margin-bottom: 30px;
+  }
+  .stats {
+    width: 48% !important;
+  }
+  .stat .value {
+    font-size: 24px;
+  }
+  .stat .label {
+    font-size: 8px !important;
+  }
+  .stat .divide {
+    top: 8px !important;
+    right: -2% !important;
+  }
+  .stat .divide {
+    height: 45px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-toggle {
+    display: none !important;
+  }
+  .respon {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

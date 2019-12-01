@@ -1,0 +1,113 @@
+$media: screen;
+$size_min: min-width;
+$size_max: max-width;
+
+$value_width_one: 1350px;
+$value_width_two: 1300px;
+$value_width_three: 1200px;
+$value_width_four: 992px;
+$value_width_five: 768px;
+$value_width_six: 576px;
+
+// Responsive 1200px
+@media only #{$media} and ($size_max: $value_width_three){
+    .nav-item{
+        padding: 0 20px !important;
+    }
+    .text-wrap h5{
+        font-size: 17px;
+    }
+    .content span{
+        font-size: 12px !important;
+    }
+    .stat .value{
+        font-size: 54px;
+    }
+}
+// Responsive 992px
+@media only #{$media} and ($size_max: $value_width_four){
+    .vertical-center{
+        width: 200px;
+    }
+    .copyright-text{
+        font-size: 17px;
+    }
+    .navbar-text{
+        display: none !important;
+    }
+    .respon{
+        display: block !important;
+    }
+    .text-size{
+        font-size: 15px !important;
+    }
+    .center{
+        text-align: center;
+    }
+    .margin-respon{
+        margin-bottom: 30px;
+    }
+    .text-wrap{
+        font-size: 16px;
+    }
+    .stat .value{
+        font-size: 34px;
+    }
+    .stat .label{
+        font-size: 10px;
+    }
+    .stat .divide{
+        top:8px !important;
+    }
+    .description{
+        padding-left: 70px !important;
+    }
+}
+
+// Responsive 576px
+@media only #{$media} and ($size_max: $value_width_six){
+    .container{
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+}
+// Responsive 768px
+@media only #{$media} and ($size_max: $value_width_five){
+    .copyright-text{
+        font-size: 15px;
+    }
+    .text-size{
+        font-size: 16px !important;
+    }
+    .center{
+        text-align: center;
+    }
+    .margin-respon{
+        margin-bottom: 30px;
+    }
+    .stats{
+        width: 48% !important;
+    }
+    .stat .value{
+        font-size: 24px;
+    }
+    .stat .label{
+        font-size: 8px !important;
+    }
+    .stat .divide{
+        top:8px !important;
+        right: -2% !important;
+    }
+    .stat .divide{
+        height: 45px;
+    }
+}
+@media only #{$media} and ($size_min: $value_width-four){
+    .nav-toggle{
+        display: none !important;
+    }
+    .respon{
+        display: none !important;
+    }
+}
